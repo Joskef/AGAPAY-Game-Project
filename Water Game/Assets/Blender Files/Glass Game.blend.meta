@@ -1,0 +1,160 @@
+fileFormatVersion: 2
+guid: 310a91d71d66b9c4a97d5abbff38335d
+timeCreated: 1521002639
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Arm
+    100002: Armature
+    100004: Carpal_Middle
+    100006: Carpal_Pinky
+    100008: Carpal_Ring
+    100010: Carpals_Index
+    100012: Carpals_Thumb
+    100014: Door
+    100016: Door_Knob
+    100018: Glass
+    100020: //RootNode
+    100022: Index_1
+    100024: Index_2
+    100026: Index_3
+    100028: Lower_Arm
+    100030: Main_Bone
+    100032: Middle_1
+    100034: Middle_2
+    100036: Middle_3
+    100038: Pinky_1
+    100040: Pinky_2
+    100042: Pinky_3
+    100044: Ring_1
+    100046: Ring_2
+    100048: Ring_3
+    100050: Table
+    100052: Thumb_1
+    100054: Thumb_2
+    100056: Upper_Arm
+    100058: Water
+    100060: Wrist
+    400000: Arm
+    400002: Armature
+    400004: Carpal_Middle
+    400006: Carpal_Pinky
+    400008: Carpal_Ring
+    400010: Carpals_Index
+    400012: Carpals_Thumb
+    400014: Door
+    400016: Door_Knob
+    400018: Glass
+    400020: //RootNode
+    400022: Index_1
+    400024: Index_2
+    400026: Index_3
+    400028: Lower_Arm
+    400030: Main_Bone
+    400032: Middle_1
+    400034: Middle_2
+    400036: Middle_3
+    400038: Pinky_1
+    400040: Pinky_2
+    400042: Pinky_3
+    400044: Ring_1
+    400046: Ring_2
+    400048: Ring_3
+    400050: Table
+    400052: Thumb_1
+    400054: Thumb_2
+    400056: Upper_Arm
+    400058: Water
+    400060: Wrist
+    2300000: Door
+    2300002: Door_Knob
+    2300004: Glass
+    2300006: Table
+    2300008: Water
+    3300000: Door
+    3300002: Door_Knob
+    3300004: Glass
+    3300006: Table
+    3300008: Water
+    4300000: Water
+    4300002: Table
+    4300004: Glass
+    4300006: Door_Knob
+    4300008: Door
+    4300010: Arm
+    7400000: Default Take
+    7400002: Arm_Movement
+    7400004: Grasp
+    9500000: //RootNode
+    13700000: Arm
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
