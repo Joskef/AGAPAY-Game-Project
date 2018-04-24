@@ -1,0 +1,40 @@
+INSERT_PATIENT_RECORD
+
+INSERT INTO `agapay`.`record_table` (`patient_pk`, `axis_1_upper`, `axis_1_lower`, `axis_2_upper`, `axis_2_lower`, `axis_3_upper`, `axis_3_lower`, `axis_4_upper`, `axis_4_lower`, `axis_5_upper`, `axis_5_lower`, `phal_1_upper`, `phal_1_lower`, `phal_2_upper`, `phal_2_lower`, `phal_3_upper`, `phal_3_lower`, `phal_4_upper`, `phal_4_lower`, `phal_5_upper`, `phal_5_lower`) VALUES ('1', '1', '1', '1', '1', '1', '1', '1', '1', '1', '1', '1', '1', '1', '1', '1', '1', '1', '1', '1', '1');
+
+
+==========================================================
+
+UPDATE_PATIENT_RECORD
+
+UPDATE `agapay`.`record_table` SET `axis_1_upper`='2', `axis_1_lower`='2', `axis_2_upper`='2', `axis_2_lower`='2', `axis_3_upper`='2', `axis_3_lower`='2', `axis_4_upper`='2', `axis_4_lower`='2', `axis_5_upper`='2', `axis_5_lower`='2', `phal_1_upper`='2', `phal_1_lower`='2', `phal_2_upper`='2', `phal_2_lower`='2', `phal_3_upper`='2', `phal_3_lower`='2', `phal_4_upper`='2', `phal_4_lower`='2', `phal_5_upper`='2', `phal_5_lower`='2' WHERE `record_pk`='1';
+
+
+==========================================================
+DELETE_PATIENT_RECORD
+
+DELETE FROM `agapay`.`record_table` WHERE `record_pk`='1';
+
+
+==========================================================
+
+INSERT_PATIENT
+
+INSERT INTO `agapay`.`patient_table` (`first_name`, `last_name`, `birthday`, `age`) VALUES ('1', '1', '1', '1');
+
+
+
+==========================================================
+UPDATE_PATIENT
+
+UPDATE `agapay`.`patient_table` SET `first_name`='1', `last_name`='1', `birthday`='1', `age`='1' WHERE `patient_pk`='1';
+
+
+==========================================================
+DELETE_PATIENT
+
+DELETE FROM `agapay`.`patient_table` WHERE `patient_pk`='1';
+
+
+==========================================================
+
