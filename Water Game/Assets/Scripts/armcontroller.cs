@@ -16,10 +16,14 @@ public class armcontroller : MonoBehaviour {
 	void Update () {
 		//values = serial_child.GetComponent<serial_com> ().values().Clone;
 		//Debug.Log(serial_child.GetComponent<serial_com> ().values[0]);
+		//integrated_control();
+		manualcontrol ();
+	}
+
+	public void integrated_control(){
+	
 		values=serial_child.GetComponent<serial_com> ().values;
 
-
-		manualcontrol ();
 
 		float army = (float)(73-values [0]);
 		float armx = (float)(62-values [1]);
@@ -28,8 +32,6 @@ public class armcontroller : MonoBehaviour {
 		upper_arm.transform.localEulerAngles = new Vector3(army,armx,-armz); 
 		lower_arm.transform.localEulerAngles = new Vector3(0,0,elbow);
 	}
-
-
 
 
 	public void manualcontrol(){

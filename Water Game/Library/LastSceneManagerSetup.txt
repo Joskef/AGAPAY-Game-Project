@@ -1,4 +1,7 @@
 sceneSetups:
+- path: Assets/menus.unity
+  isLoaded: 0
+  isActive: 0
 - path: Assets/Wate Game Trial.unity
   isLoaded: 1
   isActive: 1
